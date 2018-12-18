@@ -12,42 +12,53 @@ practicing data scientists.
 
 #### Class Notes
 
-* [O'Reilly AI conference slides](notes/h2o_oreilly_ai_slides.pdf)
+* [2018 JSM Presentation](https://github.com/jphall663/jsm_2018_slides/blob/master/main.pdf)
 
-* [Instructor notes](notes/instructor_notes.pdf)
+* [Interpretability: Good, Bad, and Ugly slides](notes/MLI_good_bad_ugly.pdf)
 
 * Practical ML interpretability examples
 
-  * [Decision tree surrogate models](src/dt_surrogate.ipynb)
+  * [Monotonic XGBoost models, partial dependence, and individual conditional expectation plots](https://github.com/jphall663/interpretable_machine_learning_with_python/blob/master/xgboost_pdp_ice.ipynb)
 
-  * [LIME (practical samples variant)](src/lime.ipynb)
+  * [Decision tree surrogates, reason codes, and ensembles of explanations](https://github.com/jphall663/interpretable_machine_learning_with_python/blob/master/dt_surrogate_loco.ipynb)
 
-  * [LOCO (NA variant)](src/loco.ipynb)
+  * [LIME](https://github.com/jphall663/interpretable_machine_learning_with_python/blob/master/lime.ipynb)
 
-  * [Partial dependence and individual conditional expectation (ICE)](src/pdp_ice.ipynb)  
+  * [Sensitivity and residual analysis](https://github.com/jphall663/interpretable_machine_learning_with_python/blob/master/resid_sens_analysis.ipynb)  
 
-  * [Sensitivity analysis](src/sensitivity_analysis.ipynb)
+* [Comparison of LIME, Shapley, and treeinterpreter explanations](https://github.com/h2oai/mli-resources/tree/master/lime_shap_treeint_compare)
 
-  * [Monotonic models with XGBoost](src/mono_xgboost.ipynb)
+#### [Sample Quiz](quiz/sample/quiz_10.pdf)
+
+#### [Quiz Key](quiz/key/quiz_10.pdf)
 
 #### References
 
 **General**
 
-* [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/pdf/1702.08608.pdf)</br>
-by Finale Doshi-Velez and Been Kim
+* [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/pdf/1702.08608.pdf)
+* [Explaining Explanations: An Approach to Evaluating Interpretability of Machine Learning](https://arxiv.org/pdf/1806.00069.pdf)
+* [A Survey Of Methods For Explaining Black Box Models](https://arxiv.org/pdf/1802.01933.pdf)
+* [Trends and Trajectories for Explainable, Accountable and Intelligible Systems: An HCI Research Agenda](https://dl.acm.org/citation.cfm?id=3174156)
+* [UC Berkeley CS 294: Fairness in Machine Learning](https://fairmlclass.github.io/)
+
+***
+
 * [Ideas for Machine Learning Interpretability](https://www.oreilly.com/ideas/ideas-on-interpreting-machine-learning)
+* [An Introduction to Machine Learning Interpretability](https://www.safaribooksonline.com/library/view/an-introduction-to/9781492033158/) (or [Blackboard](https://blackboard.gwu.edu) electronic reserves)
+* [On the Art and Science of Machine Learning Explanations](https://github.com/jphall663/jsm_2018_paper/blob/master/jsm_2018_paper.pdf)
 
 ***
 
 **Techniques**
 
 * **Partial Dependence**: *Elements of Statistical Learning*, Section 10.13
-* **LIME**: [“Why Should I Trust You?” Explaining the Predictions of Any Classifier](http://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf)</br>
-by Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin
-* **LOCO**: [Distribution-Free Predictive Inference for Regression](http://www.stat.cmu.edu/~ryantibs/papers/conformal.pdf)</br>
-by Jing Lei, Max G’Sell, Alessandro Rinaldo, Ryan J. Tibshirani, and Larry Wasserman
+* **LIME**: [“Why Should I Trust You?” Explaining the Predictions of Any Classifier](http://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf)
+* **LOCO**: [Distribution-Free Predictive Inference for Regression](http://www.stat.cmu.edu/~ryantibs/papers/conformal.pdf)
 * **ICE**: [Peeking inside the black box: Visualizing statistical learning with plots of individual conditional expectation](https://arxiv.org/pdf/1309.6392.pdf)
 * **Surrogate Models**
   * [Extracting tree structured representations of trained networks](https://papers.nips.cc/paper/1152-extracting-tree-structured-representations-of-trained-networks.pdf)
   * [Interpreting Blackbox Models via Model Extraction](https://arxiv.org/pdf/1705.08504.pdf)
+* **TreeInterpreter**: [Random forest interpretation with scikit-learn](http://blog.datadive.net/random-forest-interpretation-with-scikit-learn/)
+* **Shapley Explanations**: [A Unified Approach to Interpreting Model Predictions](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf)
+* **Explainable neural networks (xNN)**: [Explainable Neural Networks based on Additive Index Models](https://arxiv.org/pdf/1806.01933.pdf)

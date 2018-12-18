@@ -14,7 +14,7 @@ Clustering enables us to group the rows of a data set together based on their si
 
 #### [Sample Quiz](quiz/sample/quiz_6.pdf)
 
-#### [Quiz Key](quiz/key/quiz_6_key.pdf) (Currently Unavailable)
+#### [Quiz Key](quiz/key/quiz_06.pdf)
 
 #### Supplementary References
 
@@ -30,3 +30,5 @@ Chapter 8
   by Robert Tibshirani, Guenther Walther, and Trevor Hastie
 
 * [A Tutorial on Spectral Clustering](https://pdfs.semanticscholar.org/1437/415df29d3927c7851c7a0db0edd4a472d6e1.pdf)
+
+* [*K*-means tutorial with numpy](http://flothesof.github.io/k-means-numpy.html)
